@@ -26,7 +26,7 @@ body {
 }
 
 .body-recipes {
-    background-image: url('images/background-02-port.png');
+    background: #f5f5f5 !important; /* CHANGED: Light grey background for recipe pages */
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -233,6 +233,14 @@ input[type=checkbox]:checked + label:before {
 }
 
 /*=====RECIPE DETAILS=====*/
+
+.recipe-details {
+    background: white; /* ADDED: White background for recipe content */
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
 .recipe-details img {
     width: 100%;
